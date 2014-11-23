@@ -1,0 +1,246 @@
+﻿@model MvcApplication1.Models.gda_passport
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+    
+        <fieldset>
+            <legend>gda_passport</legend>
+    
+            @Html.HiddenFor(model => model.Id)
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.surname)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.surname)
+                @Html.ValidationMessageFor(model => model.surname)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.name)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.name)
+                @Html.ValidationMessageFor(model => model.name)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.patronymic)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.patronymic)
+                @Html.ValidationMessageFor(model => model.patronymic)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.born)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.born)
+                @Html.ValidationMessageFor(model => model.born)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.kingdom)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.kingdom)
+                @Html.ValidationMessageFor(model => model.kingdom)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.gender)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.gender)
+                @Html.ValidationMessageFor(model => model.gender)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.marital_status)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.marital_status)
+                @Html.ValidationMessageFor(model => model.marital_status)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.family_surname)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.family_surname)
+                @Html.ValidationMessageFor(model => model.family_surname)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.family_name)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.family_name)
+                @Html.ValidationMessageFor(model => model.family_name)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.family_patronymic)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.family_patronymic)
+                @Html.ValidationMessageFor(model => model.family_patronymic)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.family_who_registered)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.family_who_registered)
+                @Html.ValidationMessageFor(model => model.family_who_registered)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.family_when_registered)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.family_when_registered)
+                @Html.ValidationMessageFor(model => model.family_when_registered)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.mom_surname)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.mom_surname)
+                @Html.ValidationMessageFor(model => model.mom_surname)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.mom_name)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.mom_name)
+                @Html.ValidationMessageFor(model => model.mom_name)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.mom_patronymic)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.mom_patronymic)
+                @Html.ValidationMessageFor(model => model.mom_patronymic)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.father_surname)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.father_surname)
+                @Html.ValidationMessageFor(model => model.father_surname)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.father_name)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.father_name)
+                @Html.ValidationMessageFor(model => model.father_name)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.father_patronymic)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.father_patronymic)
+                @Html.ValidationMessageFor(model => model.father_patronymic)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.residence_city)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.residence_city)
+                @Html.ValidationMessageFor(model => model.residence_city)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.residence_house)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.residence_house)
+                @Html.ValidationMessageFor(model => model.residence_house)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.residence_apartment)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.residence_apartment)
+                @Html.ValidationMessageFor(model => model.residence_apartment)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.foreign_citizenship)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.foreign_citizenship)
+                @Html.ValidationMessageFor(model => model.foreign_citizenship)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.foreign_citizenship_where)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.foreign_citizenship_where)
+                @Html.ValidationMessageFor(model => model.foreign_citizenship_where)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.foreign_citizenship_now)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.foreign_citizenship_now)
+                @Html.ValidationMessageFor(model => model.foreign_citizenship_now)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.reason_for_issuing)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.reason_for_issuing)
+                @Html.ValidationMessageFor(model => model.reason_for_issuing)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.date_of_filling)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.date_of_filling)
+                @Html.ValidationMessageFor(model => model.date_of_filling)
+            </div>
+    
+            <p>
+                <input type="submit" value="Save" />
+            </p>
+        </fieldset>
+    }
+    
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</body>
+</html>

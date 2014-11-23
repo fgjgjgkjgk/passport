@@ -1,0 +1,212 @@
+﻿@model MvcApplication1.Models.gda_passport
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <fieldset>
+        <legend>gda_passport</legend>
+    
+        <div class="display-label">
+            № Користувача
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.id_user)
+        </div>
+    
+        <div class="display-label">
+            Прізвище
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.surname)
+        </div>
+    
+        <div class="display-label">
+            Ім'я
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.name)
+        </div>
+    
+        <div class="display-label">
+            По батькові
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.patronymic)
+        </div>
+    
+        <div class="display-label">
+            Дата народження
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.born)
+        </div>
+    
+        <div class="display-label">
+            Місто
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.kingdom)
+        </div>
+    
+        <div class="display-label">
+            Стать
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.gender)
+        </div>
+    
+        <div class="display-label">
+            Сімейний стан
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.marital_status)
+        </div>
+    
+        <div class="display-label">
+            Прізвище
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.family_surname)
+        </div>
+    
+        <div class="display-label">
+            Ім'я
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.family_name)
+        </div>
+    
+        <div class="display-label">
+            По батькові
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.family_patronymic)
+        </div>
+    
+        <div class="display-label">
+            Ким зареєстровано
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.family_who_registered)
+        </div>
+    
+        <div class="display-label">
+            Коли зареєстровано
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.family_when_registered)
+        </div>
+    
+        <div class="display-label">
+            Прізвище матері
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.mom_surname)
+        </div>
+    
+        <div class="display-label">
+            Ім'я матері
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.mom_name)
+        </div>
+    
+        <div class="display-label">
+            По батькові матір
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.mom_patronymic)
+        </div>
+    
+        <div class="display-label">
+            Прізвище батька
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.father_surname)
+        </div>
+    
+        <div class="display-label">
+            Ім'я батька
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.father_name)
+        </div>
+    
+        <div class="display-label">
+            По батькові батька
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.father_patronymic)
+        </div>
+    
+        <div class="display-label">
+            Прописаний в місті(селі, населеному пункті)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.residence_city)
+        </div>
+    
+        <div class="display-label">
+            Вулиця
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.residence_house)
+        </div>
+    
+        <div class="display-label">
+            Будинок
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.residence_apartment)
+        </div>
+    
+        <div class="display-label">
+            Іноземне громадянство
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.foreign_citizenship)
+        </div>
+    
+        <div class="display-label">
+            Громадянин
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.foreign_citizenship_where)
+        </div>
+    
+        <div class="display-label">
+            Дата набуття громадянства
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.foreign_citizenship_now)
+        </div>
+    
+        <div class="display-label">
+            Видача в зв'язку
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.reason_for_issuing)
+        </div>
+    
+        <div class="display-label">
+            Дата подання заяви
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.date_of_filling)
+        </div>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

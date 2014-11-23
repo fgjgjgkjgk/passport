@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "all";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>all</h2>
+@foreach (var value in ViewBag.Array)
+{
+    <p>@value.surname</p>
+}

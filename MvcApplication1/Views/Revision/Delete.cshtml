@@ -1,0 +1,208 @@
+﻿@model MvcApplication1.Models.gda_passport
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>gda_passport</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.id_user)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.id_user)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.surname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.surname)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.patronymic)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.patronymic)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.born)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.born)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.kingdom)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.kingdom)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.gender)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.gender)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.marital_status)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.marital_status)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.family_surname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.family_surname)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.family_name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.family_name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.family_patronymic)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.family_patronymic)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.family_who_registered)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.family_who_registered)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.family_when_registered)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.family_when_registered)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.mom_surname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.mom_surname)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.mom_name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.mom_name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.mom_patronymic)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.mom_patronymic)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.father_surname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.father_surname)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.father_name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.father_name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.father_patronymic)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.father_patronymic)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.residence_city)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.residence_city)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.residence_house)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.residence_house)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.residence_apartment)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.residence_apartment)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.foreign_citizenship)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.foreign_citizenship)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.foreign_citizenship_where)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.foreign_citizenship_where)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.foreign_citizenship_now)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.foreign_citizenship_now)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.reason_for_issuing)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.reason_for_issuing)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.date_of_filling)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.date_of_filling)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

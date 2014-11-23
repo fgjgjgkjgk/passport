@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="aspnet-MvcApplication1-20141021183026" Class="KabinetsModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-MvcApplication1-20141021183026.mdf;Initial Catalog=aspnet-MvcApplication1-20141021183026;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="aspnet_MvcApplication1_20141021183026ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Kabinets" Member="Kabinets">
+    <Type Name="Kabinet">
+      <Column Name="KabinetId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SurName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Patshroryk" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfBirths" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="PlaseOfBirds" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PlaseOfRegistration" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Street" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="House" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NChar(12)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
