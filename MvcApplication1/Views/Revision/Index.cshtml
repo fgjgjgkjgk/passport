@@ -1,0 +1,197 @@
+﻿@model IEnumerable<MvcApplication1.Models.gda_passport>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table>
+        <tr>
+            <th>
+                № Користувача
+            </th>
+            <th>
+                Прізвище
+            </th>
+            <th>
+                Ім'я
+            </th>
+            <th>
+                По батькові
+            </th>
+            <th>
+                Дата народження
+            </th>
+            <th>
+                Місто
+            </th>
+            <th>
+                Стать
+            </th>
+            <th>
+                Сімейний стан
+            </th>
+            <th>
+                Прізвище
+            </th>
+            <th>
+                Ім'я
+            </th>
+            <th>
+                По батькові
+            </th>
+            <th>
+                Ким зареєстровано
+            </th>
+            <th>
+                Коли зареєстровано
+            </th>
+            <th>
+                Прізвище матері
+            </th>
+            <th>
+                Ім'я матері
+            </th>
+            <th>
+                По батькові матір
+            </th>
+            <th>
+                Прізвище батька
+            </th>
+            <th>
+                Ім'я батька
+            </th>
+            <th>
+                По батькові батька
+            </th>
+            <th>
+                Прописаний в місті(селі, населеному пункті)
+            </th>
+            <th>
+                Вулиця
+            </th>
+            <th>
+                Будинок
+            </th>
+            <th>
+                Іноземне громадянство
+            </th>
+            <th>
+                Громадянин
+            </th>
+            <th>
+                Дата набуття громадянства
+            </th>
+            <th>
+                Видача в зв'язку
+            </th>
+            <th>
+                Дата подання заяви
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_user)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.patronymic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.born)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.kingdom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.marital_status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.family_surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.family_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.family_patronymic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.family_who_registered)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.family_when_registered)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mom_surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mom_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mom_patronymic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.father_surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.father_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.father_patronymic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.residence_city)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.residence_house)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.residence_apartment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.foreign_citizenship)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.foreign_citizenship_where)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.foreign_citizenship_now)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.reason_for_issuing)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.date_of_filling)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

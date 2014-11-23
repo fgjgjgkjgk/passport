@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище Model1" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="gda_passport">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_user" Type="int" Nullable="false" />
+          <Property Name="surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="patronymic" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="born" Type="datetime" Nullable="false" />
+          <Property Name="kingdom" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="gender" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="marital_status" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="family_surname" Type="varchar" MaxLength="50" />
+          <Property Name="family_name" Type="varchar" MaxLength="50" />
+          <Property Name="family_patronymic" Type="varchar" MaxLength="50" />
+          <Property Name="family_who_registered" Type="varchar" MaxLength="50" />
+          <Property Name="family_when_registered" Type="varchar" MaxLength="50" />
+          <Property Name="mom_surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="mom_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="mom_patronymic" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="father_surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="father_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="father_patronymic" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="residence_city" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="residence_house" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="residence_apartment" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="foreign_citizenship" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="foreign_citizenship_where" Type="varchar" MaxLength="50" />
+          <Property Name="foreign_citizenship_now" Type="varchar" MaxLength="50" />
+          <Property Name="reason_for_issuing" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="date_of_filling" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Хранилище Model1Container">
+          <EntitySet Name="gda_passport" EntityType="Self.gda_passport" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="gda_passport">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_user" Type="Int32" Nullable="false" />
+          <Property Name="surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="born" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="kingdom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="marital_status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="family_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="family_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="family_patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="family_who_registered" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="family_when_registered" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="mom_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="mom_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="mom_patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="father_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="father_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="father_patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="residence_city" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="residence_house" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="residence_apartment" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="foreign_citizenship" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="foreign_citizenship_where" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="foreign_citizenship_now" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="reason_for_issuing" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="date_of_filling" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Entities5" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="gda_passport" EntityType="Self.gda_passport" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Model1Container" CdmEntityContainer="Entities5">
+          <EntitySetMapping Name="gda_passport">
+            <EntityTypeMapping TypeName="Model1.gda_passport">
+              <MappingFragment StoreEntitySet="gda_passport">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="id_user" ColumnName="id_user" />
+                <ScalarProperty Name="surname" ColumnName="surname" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="patronymic" ColumnName="patronymic" />
+                <ScalarProperty Name="born" ColumnName="born" />
+                <ScalarProperty Name="kingdom" ColumnName="kingdom" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="marital_status" ColumnName="marital_status" />
+                <ScalarProperty Name="family_surname" ColumnName="family_surname" />
+                <ScalarProperty Name="family_name" ColumnName="family_name" />
+                <ScalarProperty Name="family_patronymic" ColumnName="family_patronymic" />
+                <ScalarProperty Name="family_who_registered" ColumnName="family_who_registered" />
+                <ScalarProperty Name="family_when_registered" ColumnName="family_when_registered" />
+                <ScalarProperty Name="mom_surname" ColumnName="mom_surname" />
+                <ScalarProperty Name="mom_name" ColumnName="mom_name" />
+                <ScalarProperty Name="mom_patronymic" ColumnName="mom_patronymic" />
+                <ScalarProperty Name="father_surname" ColumnName="father_surname" />
+                <ScalarProperty Name="father_name" ColumnName="father_name" />
+                <ScalarProperty Name="father_patronymic" ColumnName="father_patronymic" />
+                <ScalarProperty Name="residence_city" ColumnName="residence_city" />
+                <ScalarProperty Name="residence_house" ColumnName="residence_house" />
+                <ScalarProperty Name="residence_apartment" ColumnName="residence_apartment" />
+                <ScalarProperty Name="foreign_citizenship" ColumnName="foreign_citizenship" />
+                <ScalarProperty Name="foreign_citizenship_where" ColumnName="foreign_citizenship_where" />
+                <ScalarProperty Name="foreign_citizenship_now" ColumnName="foreign_citizenship_now" />
+                <ScalarProperty Name="reason_for_issuing" ColumnName="reason_for_issuing" />
+                <ScalarProperty Name="date_of_filling" ColumnName="date_of_filling" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

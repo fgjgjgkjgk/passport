@@ -1,0 +1,110 @@
+﻿@model MvcApplication1.Models.Kabinets
+
+   
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Kabinets</legend>
+
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserId)
+            @Html.ValidationMessageFor(model => model.UserId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SurName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SurName)
+            @Html.ValidationMessageFor(model => model.SurName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Patshroryk)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Patshroryk)
+            @Html.ValidationMessageFor(model => model.Patshroryk)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DateOfBirths)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DateOfBirths)
+            @Html.ValidationMessageFor(model => model.DateOfBirths)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PlaseOfBirds)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PlaseOfBirds)
+            @Html.ValidationMessageFor(model => model.PlaseOfBirds)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PlaseOfRegistration)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PlaseOfRegistration)
+            @Html.ValidationMessageFor(model => model.PlaseOfRegistration)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Street)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Street)
+            @Html.ValidationMessageFor(model => model.Street)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.House)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.House)
+            @Html.ValidationMessageFor(model => model.House)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Phone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Phone)
+            @Html.ValidationMessageFor(model => model.Phone)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
