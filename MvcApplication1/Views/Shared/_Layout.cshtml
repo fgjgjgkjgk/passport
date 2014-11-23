@@ -3,49 +3,118 @@
     <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta charset="utf-8" />
-        <title>@ViewBag.Title — приложение ASP.NET MVC</title>
-        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <title>@ViewBag.Title</title>
+        <link href="~/Images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
         @Styles.Render("~/Content/css")
         @Scripts.Render("~/bundles/modernizr")
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
     </head>
     <body>
-        <header>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("ваша эмблема здесь", "Index", "Home")</p>
+    <div class="site-body">
+    <header>
+
+        <nav class="navbar navbar-fixed-top" role="navigation">
+            <div class="container-fluid menu">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-                <div class="float-right">
-                    <section id="login">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Головна сторінка", "Index", "Home")</li>
+                        <li>
+                            @if (HttpContext.Current.User.Identity.IsAuthenticated)
+                            { @Html.ActionLink("Кабінет", "Details", "UserKabinet")}
+                        </li>
+                        <li>
+                            @if (HttpContext.Current.User.Identity.IsAuthenticated)
+                            { @Html.ActionLink("Заявка", "extradition", "Passport")}
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm">
+                        <li><a href="#">Набуття громадянства України</a></li>
+
+                        <li>
+                            <a href="#">Паспорт громадянина України</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Документи для виїзду за кордон</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Реєстрація/зняття місця проживання</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Документування іноземців</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Набуття статусу біженця або додаткового захисту</a>
+                        </li>
+                    </ul>
+
+
+
+                    <ul class="nav navbar-nav navbar-right" id="login">
                         @Html.Partial("_LoginPartial")
-                    </section>
-                    <nav>
-                        <ul id="menu">
-                            <li>@Html.ActionLink("Домашняя страница", "Index", "Home")</li>
-                            <li>@Html.ActionLink("О программе", "About", "Home")</li>
-                            <li>@Html.ActionLink("Контакт", "Contact", "Home")</li>
-                           <li> @if (HttpContext.Current.User.Identity.IsAuthenticated)
-                               { @Html.ActionLink("Кабінет", "Create", "Kabinet")} </li>
-                        </ul>
-                    </nav>
+                    </ul>
                 </div>
             </div>
-        </header>
-        <div id="body">
-            @RenderSection("featured", required: false)
-            <section class="content-wrapper main-content clear-fix">
+        </nav>
+    </header>
+    <div id="body">
+        <div class="container-fluid">
+            <aside class="col-lg-2 hidden-xs col-sm-2 col-md-2" >
+                <ul>
+                    <li><a href="#">Набуття громадянства України</a></li>
+
+                    <li>
+                        <a href="#">Паспорт громадянина України</a></li>
+
+                    <li>
+                        <a href="#">Документи для виїзду за кордон</a></li>
+
+                    <li>
+                        <a href="#">Реєстрація/зняття місця проживання</a></li>
+
+                    <li>
+                        <a href="#">Документування іноземців</a></li>
+
+                    <li>
+                        <a href="#">Набуття статусу біженця або додаткового захисту</a></li>
+                 </ul>
+            </aside>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+
+                @RenderSection("featured", required: false)
+
                 @RenderBody()
-            </section>
+            </div>
         </div>
-        <footer>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year — приложение ASP.NET MVC</p>
-                </div>
+        <div class="push"></div>
+    </div>
+</div>
+
+        <footer> 
+            <div>
+                <a href="#">Про сайт</a>
+                <a href="#">Зворотній зв'язок</a>
+                @Html.ActionLink("Контакт", "Contact", "Home")
+
+                <p class="text-right hidden-xs">&copy; @DateTime.Now.Year — Created by "DAA Team"</p>
             </div>
         </footer>
 
-        @Scripts.Render("~/bundles/jquery")
-        @RenderSection("scripts", required: false)
+    
     </body>
 </html>

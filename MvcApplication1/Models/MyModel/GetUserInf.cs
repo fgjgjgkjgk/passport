@@ -11,7 +11,7 @@ namespace MvcApplication1.Models.MyModel
     public class GetUserInf
     {
 
-        private KabinetsModelDataContext db_Kabinet = new KabinetsModelDataContext();
+        private Entities5 db_Kabinet = new Entities5();
         private string conectString = @"Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-MvcApplication1-20141021183026;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-MvcApplication1-20141021183026.mdf";
         private List<String> queri = new List<String>();
 
@@ -23,9 +23,10 @@ namespace MvcApplication1.Models.MyModel
 
         public Array Getuser() {
 
-            var all = (from u in db_Kabinet.Kabinets where u.UserId == UserId select u).ToArray();
-            
+            var all = (from u in db_Kabinet.UserKabinet where u.UserId == UserId select u).ToArray();
+
             return all;
+           
         }
 
         public List<String> SQLSelect(String colum, String table) {
@@ -39,8 +40,9 @@ namespace MvcApplication1.Models.MyModel
                     //пробуем подключится
                     conn.Open();
                 }
-                catch (SqlException se){
-                    
+                catch (SqlException se)
+                {
+
                 }
 
                 SqlCommand cmd = new SqlCommand("SELECT " + colum + " FROM " + table, conn);
@@ -64,10 +66,12 @@ namespace MvcApplication1.Models.MyModel
 
                 return queri;
 
-            }catch(Exception ex){
+            }
+            catch (Exception ex)
+            {
                 return null;
             }
-            
+         
         }
 
         public void SQLInsert(String TableName, String ColumnName, String Values) {
@@ -88,14 +92,14 @@ namespace MvcApplication1.Models.MyModel
 
                 SqlCommand cmd = new SqlCommand("INSERT INTO " + TableName + " (" + ColumnName + ") VALUES ( " + Values + " );", conn);
                 cmd.ExecuteNonQuery();
-                
+
                 conn.Close();
                 conn.Dispose();
 
             }
             catch (Exception ex)
             {
-                
+
             }
         }
     }

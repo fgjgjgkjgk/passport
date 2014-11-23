@@ -81,7 +81,7 @@ namespace MvcApplication1.Controllers
                 {
                     WebSecurity.CreateUserAndAccount(model.UserName, model.Password);
                     WebSecurity.Login(model.UserName, model.Password);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Create", "UserKabinet");
                 }
                 catch (MembershipCreateUserException e)
                 {

@@ -1,49 +1,50 @@
 ﻿@model MvcApplication1.Models.LoginModel
 
 @{
-    ViewBag.Title = "Выполнить вход";
+    ViewBag.Title = "Увійти";
 }
+<section class="featured">
+    <hgroup class="title">
+        <h1>@ViewBag.Title</h1>
+    </hgroup>
 
-<hgroup class="title">
-    <h1>@ViewBag.Title.</h1>
-</hgroup>
-
-<section id="loginForm">
-<h2>Используйте для входа локальную учетную запись.</h2>
-@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
-    @Html.AntiForgeryToken()
-    @Html.ValidationSummary(true)
-
-    
-        
-        <ol>
-            <li>
-               
-                <label>опрропрпорпорпо</label>
-                <input style="border: 1px solid black; border-radius: 5px;" name="UserName" type="text" />
+    <section id="loginForm">
+        <h3>Введіть потрібні дані для авторизації на сайті:</h3>
+        <hr />
+        @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+            <div>
+                <label for="uname">Ваш логін: </label>
+                <input id="uname" name="UserName" type="text" placeholder="Ваш логін..." />
                 @Html.ValidationMessageFor(m => m.UserName)
-            </li>
-            <li>
-                <label>@Html.LabelFor(m => m.Password)</label> 
-                <input type="password" name="Password" />
-                @Html.ValidationMessageFor(m => m.Password)</li>
-            <li>
-                <input type="checkbox" name="RememberMe" />
-                @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox" })</li>
-        </ol>
-        <input type="submit" value="Выполнить вход" />
-   
-    <p>
-        @Html.ActionLink("Зарегистрируйтесь", "Register"), если у вас нет учетной записи.
-    </p>
-}
-</section>
+            </div>
+            <div>
+                <label for="pswd">Ваш пароль: </label>
+                <input type="password" name="Password" id="pswd" placeholder="Ваш пароль..." />
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>
+            <div id="chbox">
+                <input type="checkbox" name="RememberMe" id="checkbox" />
+                <label for="checkbox">Запам'ятати пароль</label>
 
-<section class="social" id="socialLoginForm">
-    <h2>Используйте для входа другую службу.</h2>
-    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+            </div>
+            <input type="submit" class="btn" value="Увійти" />
+            <hr />
+            <p>
+                @Html.ActionLink("Зареєструйтесь", "Register"), якщо Ви не маєте облікового запису.
+            </p>
+        }
+    </section>
+ 
+    <!--
+    <section class="social" id="socialLoginForm">
+        <h2>Используйте для входа другую службу.</h2>
+        @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+    </section>
+        -->
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
 </section>
-
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}

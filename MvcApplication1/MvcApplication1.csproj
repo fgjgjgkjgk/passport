@@ -186,56 +186,36 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\KabinetController.cs" />
     <Compile Include="Controllers\PassportController.cs" />
-    <Compile Include="Controllers\storeadmin\RevisionController.cs" />
-    <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="Controllers\UserKabinetController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\gda_passport.cs">
-      <DependentUpon>PassportModelAdo.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Kabinets.cs">
-      <DependentUpon>KabinetsModels.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\KabinetsModel.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>KabinetsModel.dbml</DependentUpon>
-    </Compile>
-    <Compile Include="Models\KabinetsModels.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>KabinetsModels.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\KabinetsModels.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>KabinetsModels.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\KabinetsModels.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>KabinetsModels.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Models\MyModel\GetUserInf.cs" />
-    <Compile Include="Models\PassportModelAdo.Context.cs">
+    <Compile Include="Models\PassportModels.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PassportModelAdo.Context.tt</DependentUpon>
+      <DependentUpon>PassportModels.dbml</DependentUpon>
     </Compile>
-    <Compile Include="Models\PassportModelAdo.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PassportModelAdo.tt</DependentUpon>
+    <Compile Include="Models\UserKabinet.cs">
+      <DependentUpon>UserKabinetModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\PassportModelAdo.Designer.cs">
+    <Compile Include="Models\UserKabinetModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
+      <DependentUpon>UserKabinetModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserKabinetModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserKabinetModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserKabinetModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserKabinetModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validation\Validations.cs" />
@@ -245,6 +225,8 @@
     <Content Include="App_Data\aspnet-MvcApplication1-20141021183026_log.ldf">
       <DependentUpon>aspnet-MvcApplication1-20141021183026.mdf</DependentUpon>
     </Content>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -301,45 +283,30 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Views\Kabinet\Index.cshtml" />
-    <EntityDeploy Include="Models\KabinetsModels.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>KabinetsModels.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\KabinetsModels.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>KabinetsModels.edmx</DependentUpon>
-      <LastGenOutput>KabinetsModels.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\KabinetsModels.edmx.diagram">
-      <DependentUpon>KabinetsModels.edmx</DependentUpon>
-    </Content>
-    <Content Include="Models\KabinetsModels.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>KabinetsModels.edmx</DependentUpon>
-      <LastGenOutput>KabinetsModels.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\KabinetsModel.dbml">
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Models\PassportModels.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>KabinetsModel.designer.cs</LastGenOutput>
+      <LastGenOutput>PassportModels.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
-    <EntityDeploy Include="Models\PassportModelAdo.edmx">
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Content\bootstrap.css.map" />
+    <EntityDeploy Include="Models\UserKabinetModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>PassportModelAdo.Designer.cs</LastGenOutput>
+      <LastGenOutput>UserKabinetModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\PassportModelAdo.Context.tt">
+    <Content Include="Models\UserKabinetModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
-      <LastGenOutput>PassportModelAdo.Context.cs</LastGenOutput>
+      <DependentUpon>UserKabinetModel.edmx</DependentUpon>
+      <LastGenOutput>UserKabinetModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\PassportModelAdo.edmx.diagram">
-      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
+    <Content Include="Models\UserKabinetModel.edmx.diagram">
+      <DependentUpon>UserKabinetModel.edmx</DependentUpon>
     </Content>
-    <Content Include="Models\PassportModelAdo.tt">
+    <Content Include="Models\UserKabinetModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
-      <LastGenOutput>PassportModelAdo.cs</LastGenOutput>
+      <DependentUpon>UserKabinetModel.edmx</DependentUpon>
+      <LastGenOutput>UserKabinetModel.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -397,15 +364,10 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Passport\Index.cshtml" />
     <Content Include="Views\Passport\extradition.cshtml" />
-    <Content Include="Views\Passport\all.cshtml" />
-    <Content Include="Views\Kabinet\Create.cshtml" />
-    <Content Include="Views\Test\Index.cshtml" />
-    <Content Include="Views\Test\Create.cshtml" />
-    <Content Include="Views\Revision\Index.cshtml" />
-    <Content Include="Views\Revision\Details.cshtml" />
-    <Content Include="Views\Revision\Edit.cshtml" />
-    <Content Include="Views\Revision\Delete.cshtml" />
-    <Content Include="Views\Revision\Create.cshtml" />
+    <Content Include="Views\UserKabinet\Success.cshtml" />
+    <Content Include="Views\UserKabinet\Details.cshtml" />
+    <Content Include="Views\UserKabinet\Edit.cshtml" />
+    <Content Include="Views\UserKabinet\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
@@ -415,8 +377,8 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Models\KabinetsModel.dbml.layout">
-      <DependentUpon>KabinetsModel.dbml</DependentUpon>
+    <None Include="Models\PassportModels.dbml.layout">
+      <DependentUpon>PassportModels.dbml</DependentUpon>
     </None>
   </ItemGroup>
   <PropertyGroup>

@@ -13,7 +13,7 @@ namespace MvcApplication1.Controllers
 
     public class PassportController : Controller
     {
-        //private PassportModelsDataContext db = new PassportModelsDataContext();
+        private PassportModelsDataContext db = new PassportModelsDataContext();
         private GetUserInf usinf = new GetUserInf();
         private Validations Vdana = new Validations();
         private List<String> ListVdata = new List<String>();
@@ -21,13 +21,13 @@ namespace MvcApplication1.Controllers
 
         // GET: /Passport/
 
-        [Authorize(Roles = "user")] 
+      //  [Authorize(Roles = "user")] 
         public ActionResult Index()
         {
             return View();
         }
 
-        [Authorize(Roles = "user")]
+     //   [Authorize(Roles = "user")]
         public ActionResult extradition()
         {
             ViewBag.UserInf = usinf.Getuser();
@@ -83,11 +83,10 @@ namespace MvcApplication1.Controllers
 
         public ActionResult all()
         {
-            //var queri = (from u in db.passport select u).ToArray();
+            //var queri = (from u in db.gda_passport select u).ToArray();
             //var array = Enumerable.Range(1, 10);
             //ViewBag.Array = queri;
-            
-
+          
             return View();
         }
 
