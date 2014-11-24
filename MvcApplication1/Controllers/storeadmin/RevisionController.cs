@@ -10,7 +10,7 @@ namespace MvcApplication1.Controllers.storeadmin
     public class RevisionController : Controller
     {
 
-        private Entities5 db = new Entities5();
+        private Entities6 db = new Entities6();
         //
         // GET: /Revision/
 

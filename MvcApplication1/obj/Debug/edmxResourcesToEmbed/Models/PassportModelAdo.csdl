@@ -33,7 +33,7 @@
     <Property Name="reason_for_issuing" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="date_of_filling" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
   </EntityType>
-  <EntityContainer Name="Entities5" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="Entities6" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="gda_passport" EntityType="Self.gda_passport" />
   </EntityContainer>
 </Schema>

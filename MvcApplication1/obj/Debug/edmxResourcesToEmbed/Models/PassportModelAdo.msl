@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Хранилище Model1Container" CdmEntityContainer="Entities5">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Model1Container" CdmEntityContainer="Entities6">
     <EntitySetMapping Name="gda_passport">
       <EntityTypeMapping TypeName="Model1.gda_passport">
         <MappingFragment StoreEntitySet="gda_passport">

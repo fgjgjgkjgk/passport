@@ -13,7 +13,7 @@ namespace MvcApplication1.Controllers
 
     public class PassportController : Controller
     {
-        private PassportModelsDataContext db = new PassportModelsDataContext();
+        //private PassportModelsDataContext db = new PassportModelsDataContext();
         private GetUserInf usinf = new GetUserInf();
         private Validations Vdana = new Validations();
         private List<String> ListVdata = new List<String>();

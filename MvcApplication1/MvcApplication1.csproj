@@ -187,17 +187,31 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PassportController.cs" />
+    <Compile Include="Controllers\storeadmin\RevisionController.cs" />
     <Compile Include="Controllers\UserKabinetController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\gda_passport.cs">
+      <DependentUpon>PassportModelAdo.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\MyModel\GetUserInf.cs" />
-    <Compile Include="Models\PassportModels.designer.cs">
+    <Compile Include="Models\PassportModelAdo.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PassportModels.dbml</DependentUpon>
+      <DependentUpon>PassportModelAdo.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PassportModelAdo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PassportModelAdo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PassportModelAdo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\UserKabinet.cs">
       <DependentUpon>UserKabinetModel.tt</DependentUpon>
@@ -284,11 +298,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Images\bg.jpg" />
-    <Content Include="Models\PassportModels.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>PassportModels.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Content\bootstrap.css.map" />
     <EntityDeploy Include="Models\UserKabinetModel.edmx">
@@ -307,6 +316,23 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>UserKabinetModel.edmx</DependentUpon>
       <LastGenOutput>UserKabinetModel.cs</LastGenOutput>
+    </Content>
+    <EntityDeploy Include="Models\PassportModelAdo.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PassportModelAdo.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\PassportModelAdo.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
+      <LastGenOutput>PassportModelAdo.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\PassportModelAdo.edmx.diagram">
+      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\PassportModelAdo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
+      <LastGenOutput>PassportModelAdo.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -368,6 +394,11 @@
     <Content Include="Views\UserKabinet\Details.cshtml" />
     <Content Include="Views\UserKabinet\Edit.cshtml" />
     <Content Include="Views\UserKabinet\Create.cshtml" />
+    <Content Include="Views\Revision\Create.cshtml" />
+    <Content Include="Views\Revision\Delete.cshtml" />
+    <Content Include="Views\Revision\Details.cshtml" />
+    <Content Include="Views\Revision\Edit.cshtml" />
+    <Content Include="Views\Revision\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
@@ -375,11 +406,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Models\PassportModels.dbml.layout">
-      <DependentUpon>PassportModels.dbml</DependentUpon>
-    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
