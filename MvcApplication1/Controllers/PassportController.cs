@@ -8,7 +8,6 @@ using WebMatrix.WebData;
 using MvcApplication1.Models.MyModel;
 using MvcApplication1.Validation;
 using System.IO;
-using System.Configuration;
 
 namespace MvcApplication1.Controllers
 {
