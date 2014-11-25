@@ -88,8 +88,9 @@ namespace MvcApplication1.Controllers
                         " " + UserId + ", '" + surname + "','" + name + "','" + patronymic + "','" + born + "','" + kingdom + "','" + gender + "','" + marital_status + "','" + family_surname + "','" + family_name + "','" + family_patronymic + "','" + family_who_registered + "','" + family_when_registered + "','" + mom_surname + "','" + mom_name + "','" + mom_patronymic + "','" + father_surname + "','" + father_name + "','" + father_patronymic + "','" + residence_city + "','" + residence_house + "','" + residence_apartment + "','" + foreign_citizenship + "','" + foreign_citizenship_where + "','" + foreign_citizenship_now + "','" + reason_for_issuing + "','" + date_of_filling + "' ");
                 } 
             //}
-
+            Response.Redirect("/Passport/Desc");
             return View("Desc");
+            
         }
 
         [Authorize(Roles = "user")]
