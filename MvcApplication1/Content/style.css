@@ -252,7 +252,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*Cabinet*/
 
- a[href*="UserKabinet/Edit"]{
+ a[href*="UserKabinet/Edit"],a[href*="revision/Create"]{
     width:120px;
     height: 40px;
     background:#fff;
@@ -266,13 +266,13 @@ h1,h2,h3,h4,h5,h6{
 
 
 
- a[href*="UserKabinet/Edit"]:hover,a[href*="revision/Edit"]:hover{
+ a[href*="UserKabinet/Edit"]:hover,a[href*="revision/Create"]:hover{
     background:#5c6982;
     color:#fff;
 }
 
 
- a[href*="UserKabinet/Edit"]:active,a[href*="revision/Edit"]:active{
+ a[href*="UserKabinet/Edit"]:active,a[href*="revision/Create"]:active{
     background:#26364b;
     color:#fff;
 }
