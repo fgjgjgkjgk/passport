@@ -20,13 +20,13 @@ namespace MvcApplication1.Controllers
 
         // GET: /Passport/
 
-      //  [Authorize(Roles = "user")] 
+        [Authorize(Roles = "user")] 
         public ActionResult Index()
         {
             return View();
         }
 
-     //   [Authorize(Roles = "user")]
+        [Authorize(Roles = "user")]
         public ActionResult extradition()
         {
             ViewBag.UserInf = usinf.Getuser();

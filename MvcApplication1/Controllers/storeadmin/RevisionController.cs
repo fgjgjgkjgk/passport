@@ -14,6 +14,7 @@ namespace MvcApplication1.Controllers.storeadmin
         //
         // GET: /Revision/
 
+        [Authorize(Roles = "storeadmin")]
         public ActionResult Index()
         {
             var queri = (from u in db.gda_passport select u).ToList();
@@ -23,6 +24,7 @@ namespace MvcApplication1.Controllers.storeadmin
         //
         // GET: /Revision/Details/5
 
+        [Authorize(Roles = "storeadmin")]
         public ActionResult Details(int id)
         {
             var details = (from u in db.gda_passport
@@ -34,6 +36,7 @@ namespace MvcApplication1.Controllers.storeadmin
         //
         // GET: /Revision/Create
 
+        [Authorize(Roles = "storeadmin")]
         public ActionResult Create()
         {
             //gda_passport pasport = new gda_passport();
@@ -45,6 +48,7 @@ namespace MvcApplication1.Controllers.storeadmin
         // POST: /Revision/Create
 
         [HttpPost]
+        [Authorize(Roles = "storeadmin")]
         public ActionResult Create(gda_passport pasport)
         {
             try
@@ -67,6 +71,7 @@ namespace MvcApplication1.Controllers.storeadmin
         //
         // GET: /Revision/Edit/5
 
+        [Authorize(Roles = "storeadmin")]
         public ActionResult Edit(int id)
         {
             var edit = (from u in db.gda_passport
@@ -79,6 +84,7 @@ namespace MvcApplication1.Controllers.storeadmin
         // POST: /Revision/Edit/5
 
         [HttpPost]
+        [Authorize(Roles = "storeadmin")]
         public ActionResult Edit(int id, FormCollection collection)
         {
             var edit = (from u in db.gda_passport
@@ -101,6 +107,7 @@ namespace MvcApplication1.Controllers.storeadmin
         //
         // GET: /Revision/Delete/5
 
+        [Authorize(Roles = "storeadmin")]
         public ActionResult Delete(int id)
         {
             var del = (from u in db.gda_passport
@@ -113,6 +120,7 @@ namespace MvcApplication1.Controllers.storeadmin
         // POST: /Revision/Delete/5
 
         [HttpPost]
+        [Authorize(Roles = "storeadmin")]
         public ActionResult Delete(int id, FormCollection collection)
         {
 
