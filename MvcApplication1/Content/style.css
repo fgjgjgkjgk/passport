@@ -101,6 +101,9 @@ header a{
     padding-bottom:20px;
 }
 
+li{
+    list-style-type:none;
+}
 
 .push{
     height:50px;
@@ -132,11 +135,17 @@ header a{
     color:#fff;
 }
 
-input[type="text"], input[type="password"]{
+input[type="text"], input[type="password"],input[type="datetime"]{
     border:2px solid #5c6982;
     color:#5c6982;
     font-style:italic;
 
+}
+
+
+input[placeholder]{
+    color:#26364b;
+    font-style:italic;
 }
 
 aside{
@@ -144,12 +153,8 @@ aside{
     padding:0px;
 }
 
-aside{
-    
-}
-
 aside ul{
-    width:100%;
+    width:auto;
     padding:0px;
     list-style-type:none;
 }
@@ -200,10 +205,13 @@ label{
     width:140px;
 }
 
-#body #regpage div, #body #loginForm div, #body #manage div{
+#body #regpage div, #body #loginForm div, #body #manage div,#body #cab div{
     margin:20px 0px 20px;
 }
 
+#body{
+    z-index:10;
+}
 
 h1,h2,h3,h4,h5,h6{
     color:#26364b;
