@@ -23,8 +23,15 @@ namespace MvcApplication1.Controllers
         }
         public ActionResult Details()
         {
-            var d = (from kabinet in db.UserKabinet where kabinet.UserId == WebSecurity.CurrentUserId select kabinet).First();
-            return View(d);
+            try
+            {
+                var d = (from kabinet in db.UserKabinet where kabinet.UserId == WebSecurity.CurrentUserId select kabinet).First();
+                return View(d);
+            }
+            catch (Exception p)
+            {
+                return RedirectToAction("Create");
+            }
         }
         public ActionResult Create()
         {

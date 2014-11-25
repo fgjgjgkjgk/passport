@@ -11,16 +11,30 @@ namespace MvcApplication1.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations;
+    using System.Web.Mvc;
     public partial class UserKabinet
     {
         public int KabinetId { get; set; }
         public int UserId { get; set; }
+        [Required(ErrorMessage = "¬вкаж≥ть ≥м'€")]
+        [StringLength(50, MinimumLength = 2, ErrorMessage = "¬вед≥ть ≥м'€ коректно")]
         public string Name { get; set; }
+        [Required(ErrorMessage = "¬вкаж≥ть пр≥звище")]
+        [StringLength(50, MinimumLength = 2, ErrorMessage = "¬вед≥ть пр≥звище коректно")]
         public string Surname { get; set; }
+        [Required(ErrorMessage = "¬вкаж≥ть по батьков≥")]
+        [StringLength(50, MinimumLength = 2, ErrorMessage = "¬вед≥ть по батьков≥ коректно")]
         public string Patronymic { get; set; }
+        [Required(ErrorMessage = "¬вкаж≥ть дату народженн€")]
         public System.DateTime DateOfBirth { get; set; }
+        [RegularExpression(@"^([0-9a-zA-Z]([\+\-_\.][0-9a-zA-Z]+)*)+@(([0-9a-zA-Z][-\w]*[0-9a-zA-Z]*\.)+[a-zA-Z0-9]{2,3})$",
+        ErrorMessage = "¬вед≥ть вашу електронну пошту корректно")]
+        [Required(ErrorMessage = "¬вкаж≥ть електронну пошту")]
         public string Email { get; set; }
+        [StringLength(12, MinimumLength = 12, ErrorMessage = "Ќомер телефону маЇ м≥стити 12 цифр")]
+        [Required(ErrorMessage = "¬вкаж≥ть номер телефону")]
         public string Phone { get; set; }
     }
 }
