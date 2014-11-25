@@ -399,6 +399,7 @@
     <Content Include="Views\Revision\Create.cshtml" />
     <Content Include="Views\Revision\Edit.cshtml" />
     <Content Include="Views\Revision\Delete.cshtml" />
+    <Content Include="Views\Passport\Desc.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
