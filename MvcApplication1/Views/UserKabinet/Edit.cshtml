@@ -1,78 +1,71 @@
 ﻿@model MvcApplication1.Models.UserKabinet
 
 @{
-    ViewBag.Title = "Редагувати";
+    ViewBag.Title = "Редагувати кабінет";
 }
 
-<h2>Кабінет</h2>
+<section id="cab" class="featured">
 
-@using (Html.BeginForm()) {
-    @Html.AntiForgeryToken()
-    @Html.ValidationSummary(true)
+    <h2>Редагувати кабінет</h2>
+    <hr />
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
 
-    <fieldset>
-        <legend>Редагування кабінету</legend>
 
-        
+            <div>
+                <label>Ваше Ім'я: </label>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Name)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Name)
-            @Html.ValidationMessageFor(model => model.Name)
-        </div>
+                @Html.EditorFor(model => model.Name)
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Surname)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Surname)
-            @Html.ValidationMessageFor(model => model.Surname)
-        </div>
+             <div>
+                <label>Ваше прізвище: </label>
+  
+                @Html.EditorFor(model => model.Surname)
+                @Html.ValidationMessageFor(model => model.Surname)
+            </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Patronymic)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Patronymic)
-            @Html.ValidationMessageFor(model => model.Patronymic)
-        </div>
+           <div >
+                <label>Ім'я по-батькові: </label>
+    
+                @Html.EditorFor(model => model.Patronymic)
+                @Html.ValidationMessageFor(model => model.Patronymic)
+            </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.DateOfBirth)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.DateOfBirth)
-            @Html.ValidationMessageFor(model => model.DateOfBirth)
-        </div>
+           <div>
+               <label>Дата народження: </label>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Email)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Email)
-            @Html.ValidationMessageFor(model => model.Email)
-        </div>
+               <input type="date" name="DateOfBirth" value=" " />
+               @Html.ValidationMessageFor(model => model.DateOfBirth)
+            </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Phone)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Phone)
-            @Html.ValidationMessageFor(model => model.Phone)
-        </div>
+           <div>
+                <label>Електронна адреса: </label>
 
-        <p>
-            <input type="submit" value="Save" />
-        </p>
-    </fieldset>
-}
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
+            <div>
+                <label>Контактний номер: </label>
 
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
+                @Html.EditorFor(model => model.Phone)
+                @Html.ValidationMessageFor(model => model.Phone)
+            </div>
+
+           
+                <input type="submit" class="btn" value="Зберегти" />
+       
+
+            }
+
+            <div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+
+            @section Scripts {
+                @Scripts.Render("~/bundles/jqueryval")
+            }
+    </section>

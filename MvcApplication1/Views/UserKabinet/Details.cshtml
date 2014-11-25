@@ -1,60 +1,54 @@
 ﻿@model MvcApplication1.Models.UserKabinet
 
 @{
-    ViewBag.Title = "Kabinet";
+    ViewBag.Title = "Мій кабінет";
 }
 
-<h2>Кабінет</h2>
 
-<fieldset>
-    <legend>Ваш кабінет</legend>
+<section id="cab" class="featured">
+    <h2>Мій кабінет</h2>
 
-   
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Name)
-    </div>
-    <div class="display-field">
+
+
+    <div>
+        <label>Ваше Ім'я: </label>
+
         @Html.DisplayFor(model => model.Name)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Surname)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Ваше прізвище: </label>
+  
         @Html.DisplayFor(model => model.Surname)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Patronymic)
-    </div>
-    <div class="display-field">
+    <div >
+        <label>Ім'я по-батькові: </label>
+    
         @Html.DisplayFor(model => model.Patronymic)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.DateOfBirth)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Дата народження: </label>
+
         @Html.DisplayFor(model => model.DateOfBirth)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Email)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Електронна адреса: </label>
+
         @Html.DisplayFor(model => model.Email)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Phone)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Контактний номер: </label>
+
         @Html.DisplayFor(model => model.Phone)
     </div>
-  <p></p>
-        @Html.ActionLink("Редагувати кабінет", "Edit", new { id=Model.UserId }) 
-     
-</fieldset>
+ 
+        @Html.ActionLink("Редагувати кабінет", "Edit", new { id = Model.UserId })
+
+</section>
 
 

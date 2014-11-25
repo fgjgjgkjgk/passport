@@ -139,6 +139,20 @@ input[type="text"], input[type="password"]{
 
 }
 
+
+input[type="date"],#body select{
+    border:2px solid #5c6982;
+    color:#5c6982;
+    font-style:italic;
+    min-height:20px;
+    max-height:32px;
+    height:auto;
+    min-width:160px;
+    max-width:272px;
+    width:auto;
+}
+
+
 aside{
     margin-top:20px;
     padding:0px;
@@ -200,10 +214,14 @@ label{
     width:140px;
 }
 
-#body #regpage div, #body #loginForm div, #body #manage div{
+#body #regpage div, #body #loginForm div, #body #manage div,#body #cab div,#body #pass div{
     margin:20px 0px 20px;
 }
 
+#body input,#body select{
+    width:160px;
+
+}
 
 h1,h2,h3,h4,h5,h6{
     color:#26364b;
@@ -220,20 +238,49 @@ h1,h2,h3,h4,h5,h6{
 /*login*/
 
 
-#body #loginForm #chbox *{
+#body #chbox *{
     display:inline-block;
-}
-
-#body #loginForm #chbox label{
     width:auto;
 }
-
-
 
 
 #body #loginForm p{
     margin:20px 0px 20px;
 }
+
+
+
+/*Cabinet*/
+
+#cab a[href*="UserKabinet/Edit"]{
+    width:120px;
+    height: 40px;
+    background:#fff;
+    border:2px solid #5c6982;
+    color:#5c6982;
+    font-weight:bold;
+    border-radius:0px;
+    padding:15px;
+    transition:all ease-in-out 0.3s;
+}
+
+
+
+#cab a[href*="UserKabinet/Edit"]:hover{
+    background:#5c6982;
+    color:#fff;
+}
+
+
+#cab a[href*="UserKabinet/Edit"]:active{
+    background:#26364b;
+    color:#fff;
+}
+
+
+
+
+
 
 /*footer*/
 footer{

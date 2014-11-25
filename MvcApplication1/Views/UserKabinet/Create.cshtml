@@ -1,72 +1,65 @@
 ﻿@model MvcApplication1.Models.UserKabinet
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Кабінет";
 }
 
-<h2>Create</h2>
+
+
+
 
 @using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
 
-    <fieldset>
-        <legend>UserKabinet</legend>
-
-      
-
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Name)
-        </div>
-        <div class="editor-field">
+<section class="feature" id="cab">
+    <h2>Створення кабінету користувача</h2>
+    <hr />
+        <div >
+            <label>Ваше Ім'я: </label>
             @Html.EditorFor(model => model.Name)
             @Html.ValidationMessageFor(model => model.Name)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Surname)
-        </div>
-        <div class="editor-field">
+        <div>
+            <label>Ваше прізвище: </label>
+    
             @Html.EditorFor(model => model.Surname)
             @Html.ValidationMessageFor(model => model.Surname)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Patronymic)
-        </div>
-        <div class="editor-field">
+        <div>
+            <label>Ім'я по-батькові: </label>
+       
             @Html.EditorFor(model => model.Patronymic)
             @Html.ValidationMessageFor(model => model.Patronymic)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.DateOfBirth)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.DateOfBirth)
+        <div>
+            <label>Дата народження: </label>
+       
+            <input type="date" name="DateOfBirth" value=" " />
             @Html.ValidationMessageFor(model => model.DateOfBirth)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Email)
-        </div>
-        <div class="editor-field">
+        <div>
+            <label>Електронна адреса: </label>
+       
             @Html.EditorFor(model => model.Email)
             @Html.ValidationMessageFor(model => model.Email)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Phone)
-        </div>
-        <div class="editor-field">
+        <div>
+            <label>Контактний номер: </label>
+       
             @Html.EditorFor(model => model.Phone)
             @Html.ValidationMessageFor(model => model.Phone)
         </div>
 
-        <p>
-            <input type="submit" value="Create" />
-        </p>
-    </fieldset>
+       
+            <input type="submit" class="btn" value="Створити" />
+
+ </section>
 }
 
 
