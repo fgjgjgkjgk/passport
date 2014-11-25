@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PassportModels">
+  <DataContextMoniker Name="/PassportModelsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1d9c5011-3719-4c10-be1a-5b36953a130d" absoluteBounds="3.5, 1.125, 2, 6.1938297526041666">
+      <DataClassMoniker Name="/PassportModelsDataContext/gda_passport" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52ce7bc9-be8a-4a59-8656-f00d2ff22698" absoluteBounds="3.515, 1.585, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="98cf6fb2-e5e0-4ee3-becd-96da6d4f71b7" absoluteBounds="0.75, 2.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/PassportModelsDataContext/webpages_Membership" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ef6f79b2-680f-4a50-8e91-90eadcccf0b8" absoluteBounds="0.765, 3.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 4.21235270182292); (3.5 : 4.21235270182292)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PassportModelsDataContext/webpages_Membership/webpages_Membership_gda_passport" />
+      <nodes>
+        <classShapeMoniker Id="98cf6fb2-e5e0-4ee3-becd-96da6d4f71b7" />
+        <classShapeMoniker Id="1d9c5011-3719-4c10-be1a-5b36953a130d" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
