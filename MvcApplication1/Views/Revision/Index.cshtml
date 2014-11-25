@@ -5,186 +5,140 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.id_user)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.surname)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.patronymic)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.born)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.kingdom)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.gender)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.marital_status)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.family_surname)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.family_name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.family_patronymic)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.family_who_registered)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.family_when_registered)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.mom_surname)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.mom_name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.mom_patronymic)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.father_surname)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.father_name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.father_patronymic)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.residence_city)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.residence_house)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.residence_apartment)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.foreign_citizenship)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.foreign_citizenship_where)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.foreign_citizenship_now)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.reason_for_issuing)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.date_of_filling)
-        </th>
-        <th></th>
-    </tr>
+<div class="rev">
+    <h2>Index</h2>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.id_user)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.surname)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.patronymic)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.born)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.kingdom)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.gender)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.marital_status)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.family_surname)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.family_name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.family_patronymic)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.family_who_registered)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.family_when_registered)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.mom_surname)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.mom_name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.mom_patronymic)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.father_surname)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.father_name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.father_patronymic)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.residence_city)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.residence_house)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.residence_apartment)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.foreign_citizenship)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.foreign_citizenship_where)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.foreign_citizenship_now)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.reason_for_issuing)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.date_of_filling)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table table-striped">
+        <tr>
+            <th>Id користувача</th>
+            <th>Id заяви</th>
+            <th>Призвище</th>
+            <th>Ім'я</th>
+            <th>По батькові</th>
+            <th>Дата народження</th>
+            <th>Місто народження</th>
+            <th>Стать</th>
+            <th>Сімейний стан</th>
+            <th>Прізвище чоловіка/дружини</th>
+            <th>Ім'я чоловіка/дружини</th>
+            <th>По батькові чоловіка/дружини</th>
+            <th>Ким зареєстрований шлюб</th>
+            <th>Коли зареєстрований шлюб</th>
+            <th>Прізвище матері</th>
+            <th>Ім'я матері</th>
+            <th>По батькові матері</th>
+            <th>Прізвище батька</th>
+            <th>Ім'я батька</th>
+            <th>По батькові батька</th>
+            <th>Місто проживання</th>
+            <th>Вулиця</th>
+            <th>Номер будинку</th>
+            <th>Іноземне громадянство</th>
+            <th>Громадянство країни</th>
+            <th>Коли прийняте громадянство України</th>
+            <th>Підстава отримання паспорту</th>
+            <th>Дата подачи заяви</th>
+            <th>Налаштування обраної заяви</th>
+        </tr>
 
-</table>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id_user)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.surname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.patronymic)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.born)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.kingdom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.marital_status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.family_surname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.family_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.family_patronymic)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.family_who_registered)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.family_when_registered)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.mom_surname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.mom_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.mom_patronymic)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.father_surname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.father_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.father_patronymic)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.residence_city)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.residence_house)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.residence_apartment)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.foreign_citizenship)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.foreign_citizenship_where)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.foreign_citizenship_now)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.reason_for_issuing)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.date_of_filling)
+                </td>
+                <td>
+                    @Html.ActionLink("Змінити", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Деталі", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Видалити", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

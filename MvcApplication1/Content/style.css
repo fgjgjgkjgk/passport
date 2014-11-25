@@ -252,7 +252,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*Cabinet*/
 
-#cab a[href*="UserKabinet/Edit"]{
+ a[href*="UserKabinet/Edit"]{
     width:120px;
     height: 40px;
     background:#fff;
@@ -266,19 +266,41 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-#cab a[href*="UserKabinet/Edit"]:hover{
+ a[href*="UserKabinet/Edit"]:hover,a[href*="revision/Edit"]:hover{
     background:#5c6982;
     color:#fff;
 }
 
 
-#cab a[href*="UserKabinet/Edit"]:active{
+ a[href*="UserKabinet/Edit"]:active,a[href*="revision/Edit"]:active{
     background:#26364b;
     color:#fff;
 }
 
 
+ /*storeadmin*/
 
+ a[href*="revision/Edit"], a[href*="revision/Details"],a[href*="revision/Delete"]{
+     color:#5c6982;
+ }
+
+ a[href*="revision/Edit"]:hover,a[href*="revision/Details"]:hover,a[href*="revision/Details"]:hover{
+     background:none;
+     color:#26364b;
+     text-decoration:none;
+
+ }
+
+a[href*="revision/Edit"]:active,a[href*="revision/Details"]:active,a[href*="revision/Details"]:active {
+     background: none;
+     color: #000;
+     text-decoration: none;
+}
+
+
+.rev{
+    overflow-x:scroll; 
+}
 
 
 
