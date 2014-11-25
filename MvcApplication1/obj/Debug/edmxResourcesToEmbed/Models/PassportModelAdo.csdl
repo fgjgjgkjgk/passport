@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="gda_passport">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_user" Type="Int32" Nullable="false" />
+    <Property Name="surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="born" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="kingdom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="marital_status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="family_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="family_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="family_patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="family_who_registered" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="family_when_registered" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mom_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="mom_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="mom_patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="father_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="father_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="father_patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="residence_city" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="residence_house" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="residence_apartment" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="foreign_citizenship" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="foreign_citizenship_where" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="foreign_citizenship_now" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="reason_for_issuing" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="date_of_filling" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Entities7" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="gda_passport" EntityType="Self.gda_passport" />
+  </EntityContainer>
+</Schema>

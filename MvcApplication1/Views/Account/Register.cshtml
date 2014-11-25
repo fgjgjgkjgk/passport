@@ -1,0 +1,42 @@
+﻿@model MvcApplication1.Models.RegisterModel
+@{
+    ViewBag.Title = "Реєстрація";
+}
+<section class="featured">
+    <hgroup class="title">
+        <h1>@ViewBag.Title.</h1>
+        <h3>Реєстрація у базі ДСМУ</h3>
+    </hgroup>
+    <hr />
+
+    <section id="regpage">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary()
+
+            <div>
+                <label for="uname">Ваш логін: </label>
+                <input type="text" name="UserName" id="uname" placeholder="Ваш логін..." />
+
+            </div>
+            <div>
+                <label for="pswd">Ваш пароль: </label>
+                <input type="password" name="Password" id="pswd" placeholder="Ваш пароль..." />
+            </div>
+            <div>
+                <label for="cnf-pswd">Підтвердити: </label>
+                <input type="password" name="ConfirmPassword" id="cnf-pswd" placeholder="Повторити пароль..." />
+
+            </div>
+
+            <input type="submit" class="btn" value="Регистрация" />
+
+        }
+    </section>
+ 
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+</section>

@@ -1,0 +1,686 @@
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll.config
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Antlr3.Runtime.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.AspNet.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.Core.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.OAuth.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.OpenId.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\EntityFramework.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Microsoft.Data.Edm.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Microsoft.Data.OData.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Spatial.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Http.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Http.OData.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Optimization.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Razor.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\WebGrease.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\WebMatrix.Data.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\WebMatrix.WebData.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\EntityFramework.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Http.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Razor.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\WebMatrix.Data.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\WebMatrix.WebData.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.AspNet.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.Core.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.OAuth.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.OpenId.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Web.Http.OData.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Microsoft.Data.Edm.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\Microsoft.Data.OData.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\System.Spatial.xml
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\EntityFramework.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Net.Http.Formatting.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.Helpers.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.Http.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.Http.WebHost.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.Mvc.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.Optimization.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.Razor.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.WebPages.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\WebMatrix.Data.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\WebMatrix.WebData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Web.Http.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\de\Microsoft.Data.Edm.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\es\Microsoft.Data.Edm.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\fr\Microsoft.Data.Edm.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\it\Microsoft.Data.Edm.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ja\Microsoft.Data.Edm.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ko\Microsoft.Data.Edm.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\Microsoft.Data.Edm.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\de\Microsoft.Data.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\es\Microsoft.Data.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\fr\Microsoft.Data.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\it\Microsoft.Data.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ja\Microsoft.Data.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ko\Microsoft.Data.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\Microsoft.Data.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\de\System.Spatial.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\es\System.Spatial.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\fr\System.Spatial.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\it\System.Spatial.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ja\System.Spatial.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ko\System.Spatial.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\ru\System.Spatial.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\zh-Hans\System.Spatial.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\bin\zh-Hant\System.Spatial.resources.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
+d:\документы\visual studio 2013\Projects\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\MvcApplication1.dll.config
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\MvcApplication1.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\MvcApplication1.pdb
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Antlr3.Runtime.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.AspNet.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.Core.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.OAuth.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.OpenId.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\EntityFramework.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Microsoft.Data.Edm.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Microsoft.Data.OData.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Newtonsoft.Json.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Net.Http.Formatting.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Spatial.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Helpers.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Http.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Http.OData.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Http.WebHost.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Mvc.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Optimization.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Razor.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.WebPages.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\WebGrease.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\WebMatrix.Data.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\WebMatrix.WebData.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\EntityFramework.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Newtonsoft.Json.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Net.Http.Formatting.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Helpers.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Http.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Http.WebHost.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Mvc.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Razor.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.WebPages.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\WebMatrix.Data.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\WebMatrix.WebData.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.AspNet.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.Core.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.OAuth.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.OpenId.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Web.Http.OData.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Microsoft.Data.Edm.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\Microsoft.Data.OData.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\System.Spatial.xml
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\EntityFramework.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.Helpers.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.Http.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.Mvc.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.Optimization.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.Razor.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.WebPages.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\WebMatrix.Data.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\WebMatrix.WebData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Web.Http.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\de\Microsoft.Data.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\es\Microsoft.Data.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\it\Microsoft.Data.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\de\System.Spatial.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\es\System.Spatial.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\fr\System.Spatial.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\it\System.Spatial.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ja\System.Spatial.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ko\System.Spatial.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\ru\System.Spatial.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\zh-Hans\System.Spatial.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\bin\zh-Hant\System.Spatial.resources.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\Документы\Visual Studio 2013\Projects\migration\MvcApplication1\obj\Debug\MvcApplication1.pdb
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\MvcApplication1.dll.config
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\MvcApplication1.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\MvcApplication1.pdb
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Antlr3.Runtime.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\EntityFramework.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Microsoft.Data.Edm.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Microsoft.Data.OData.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Net.Http.Formatting.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Spatial.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Helpers.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Http.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Http.OData.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Http.WebHost.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Mvc.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Optimization.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Razor.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.WebPages.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\WebGrease.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\WebMatrix.Data.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\WebMatrix.WebData.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\EntityFramework.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Net.Http.Formatting.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Helpers.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Http.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Http.WebHost.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Mvc.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Razor.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.WebPages.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\WebMatrix.Data.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\WebMatrix.WebData.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Web.Http.OData.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Microsoft.Data.Edm.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\Microsoft.Data.OData.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\System.Spatial.xml
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\EntityFramework.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.Http.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Web.Http.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\de\System.Spatial.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\es\System.Spatial.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\fr\System.Spatial.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\it\System.Spatial.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ja\System.Spatial.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ko\System.Spatial.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\ru\System.Spatial.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\obj\Debug\MvcApplication1.dll
+C:\Users\Alina\Desktop\migration2\MvcApplication1\obj\Debug\MvcApplication1.pdb
+C:\Users\Alina\Desktop\migration2\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+D:\Рабочий стол\migration2\MvcApplication1\bin\MvcApplication1.dll.config
+D:\Рабочий стол\migration2\MvcApplication1\bin\MvcApplication1.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\MvcApplication1.pdb
+D:\Рабочий стол\migration2\MvcApplication1\bin\Antlr3.Runtime.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\EntityFramework.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\Microsoft.Data.Edm.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\Microsoft.Data.OData.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\Newtonsoft.Json.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Net.Http.Formatting.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Spatial.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Helpers.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Http.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Http.OData.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Http.WebHost.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Mvc.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Optimization.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Razor.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.WebPages.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\WebGrease.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\WebMatrix.Data.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\WebMatrix.WebData.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\EntityFramework.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\Newtonsoft.Json.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Net.Http.Formatting.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Helpers.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Http.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Http.WebHost.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Mvc.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Razor.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.WebPages.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\WebMatrix.Data.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\WebMatrix.WebData.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Web.Http.OData.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\Microsoft.Data.Edm.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\Microsoft.Data.OData.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\System.Spatial.xml
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\EntityFramework.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.Helpers.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.Http.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.Mvc.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.Optimization.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.Razor.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.WebPages.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\WebMatrix.Data.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\WebMatrix.WebData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Web.Http.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\de\Microsoft.Data.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\es\Microsoft.Data.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\it\Microsoft.Data.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\de\System.Spatial.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\es\System.Spatial.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\fr\System.Spatial.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\it\System.Spatial.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ja\System.Spatial.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ko\System.Spatial.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\ru\System.Spatial.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\zh-Hans\System.Spatial.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\bin\zh-Hant\System.Spatial.resources.dll
+D:\Рабочий стол\migration2\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+D:\Рабочий стол\migration2\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\Рабочий стол\migration2\MvcApplication1\obj\Debug\MvcApplication1.pdb
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\MvcApplication1.dll.config
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\MvcApplication1.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\MvcApplication1.pdb
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Antlr3.Runtime.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\EntityFramework.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Microsoft.Data.Edm.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Microsoft.Data.OData.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Newtonsoft.Json.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Spatial.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.Helpers.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.Http.OData.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.Mvc.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.Optimization.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.Razor.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.WebPages.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\WebGrease.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\WebMatrix.Data.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\WebMatrix.WebData.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\EntityFramework.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Newtonsoft.Json.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.Helpers.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.Mvc.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.Razor.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.WebPages.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\WebMatrix.Data.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\WebMatrix.WebData.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Web.Http.OData.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Microsoft.Data.Edm.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\Microsoft.Data.OData.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\System.Spatial.xml
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\EntityFramework.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\System.Web.Helpers.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\System.Web.Mvc.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\System.Web.Optimization.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\System.Web.Razor.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\System.Web.WebPages.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\WebMatrix.WebData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\System.Web.Http.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\de\Microsoft.Data.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\es\Microsoft.Data.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\it\Microsoft.Data.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\de\System.Spatial.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\es\System.Spatial.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\fr\System.Spatial.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\it\System.Spatial.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ja\System.Spatial.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ko\System.Spatial.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\ru\System.Spatial.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\zh-Hans\System.Spatial.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\bin\zh-Hant\System.Spatial.resources.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\obj\Debug\MvcApplication1.dll
+E:\Фриланс\Пасспортный стол\migration2\MvcApplication1\obj\Debug\MvcApplication1.pdb
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\MvcApplication1.dll.config
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\MvcApplication1.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\MvcApplication1.pdb
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Antlr3.Runtime.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\EntityFramework.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Microsoft.Data.Edm.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Microsoft.Data.OData.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Spatial.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.Helpers.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.Http.OData.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.Mvc.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.Optimization.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.Razor.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.WebPages.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\WebGrease.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\WebMatrix.Data.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\WebMatrix.WebData.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\EntityFramework.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.Helpers.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.Mvc.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.Razor.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.WebPages.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\WebMatrix.Data.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\WebMatrix.WebData.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Web.Http.OData.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Microsoft.Data.Edm.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\Microsoft.Data.OData.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\System.Spatial.xml
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\EntityFramework.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\System.Web.Http.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\de\System.Spatial.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\es\System.Spatial.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\fr\System.Spatial.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\it\System.Spatial.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ja\System.Spatial.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ko\System.Spatial.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\ru\System.Spatial.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Alina\Downloads\migration2\MvcApplication1\obj\Debug\MvcApplication1.dll
+C:\Users\Alina\Downloads\migration2\MvcApplication1\obj\Debug\MvcApplication1.pdb
+D:\Downloads\migration2\migration2\MvcApplication1\bin\MvcApplication1.dll.config
+D:\Downloads\migration2\migration2\MvcApplication1\bin\MvcApplication1.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\MvcApplication1.pdb
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Antlr3.Runtime.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\EntityFramework.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Microsoft.Data.Edm.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Microsoft.Data.OData.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Newtonsoft.Json.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Net.Http.Formatting.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Spatial.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Helpers.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Http.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Http.OData.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Http.WebHost.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Mvc.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Optimization.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Razor.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.WebPages.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\WebGrease.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\WebMatrix.Data.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\WebMatrix.WebData.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\EntityFramework.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Newtonsoft.Json.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Net.Http.Formatting.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Helpers.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Http.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Http.WebHost.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Mvc.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Razor.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.WebPages.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\WebMatrix.Data.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\WebMatrix.WebData.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.AspNet.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.Core.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.OAuth.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Web.Http.OData.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Microsoft.Data.Edm.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\Microsoft.Data.OData.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\System.Spatial.xml
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\EntityFramework.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.Helpers.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.Http.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.Mvc.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.Optimization.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.Razor.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.WebPages.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\WebMatrix.Data.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\WebMatrix.WebData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Web.Http.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\de\Microsoft.Data.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\es\Microsoft.Data.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\it\Microsoft.Data.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\de\System.Spatial.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\es\System.Spatial.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\fr\System.Spatial.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\it\System.Spatial.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ja\System.Spatial.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ko\System.Spatial.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\ru\System.Spatial.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\zh-Hans\System.Spatial.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\bin\zh-Hant\System.Spatial.resources.dll
+D:\Downloads\migration2\migration2\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+D:\Downloads\migration2\migration2\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\Downloads\migration2\migration2\MvcApplication1\obj\Debug\MvcApplication1.pdb

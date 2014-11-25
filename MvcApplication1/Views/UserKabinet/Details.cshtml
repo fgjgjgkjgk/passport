@@ -1,0 +1,60 @@
+﻿@model MvcApplication1.Models.UserKabinet
+
+@{
+    ViewBag.Title = "Kabinet";
+}
+
+<h2>Кабінет</h2>
+
+<fieldset>
+    <legend>Ваш кабінет</legend>
+
+   
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Surname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Surname)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Patronymic)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Patronymic)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DateOfBirth)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DateOfBirth)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Phone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Phone)
+    </div>
+  <p></p>
+        @Html.ActionLink("Редагувати кабінет", "Edit", new { id=Model.UserId }) 
+     
+</fieldset>
+
+
