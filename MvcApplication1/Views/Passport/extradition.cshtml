@@ -5,22 +5,19 @@
 
 <section id="pass" class="featured">
 
-   
-
-
         <h2>Подання заявки на отримання паспорту громадянина України</h2>
     <hr />
-        @using (Html.BeginForm("extraditionS", "Passport"))
-{
-    foreach (var validMassage in ViewBag.we)
-    {<label style="color:red;">@validMassage</label>}
-
-    foreach (var validMassage in ViewBag.mm)
-    {<label style="color:red;">@validMassage</label>}
-        
-        
-        foreach (var value in ViewBag.UserInf)
+        @using (Html.BeginForm("extraditionS", "Passport", FormMethod.Post, new { enctype = "multipart/form-data" }))
         {
+            foreach (var validMassage in ViewBag.we)
+            {<label style="color:red;">@validMassage</label>}
+
+            foreach (var validMassage in ViewBag.mm)
+            {<label style="color:red;">@validMassage</label>}
+
+
+            foreach (var value in ViewBag.UserInf)
+            {
             
             <h3>Загальні дані</h3>
 
@@ -98,12 +95,12 @@
     <div><label>Прошу видати (замінити) паспорт у зв'язку  з: </label><input id="Text1" type="text" name="reason_for_issuing" /></div>
             
     <div><label>Дата заповнення: </label><input id="Text1" type="text" name="date_of_filling" /></div>
+            
+            <h2>Загрузка фото</h2>      
+             <input type="file" name="fileUpload" /><br />              
 
             <input type="submit" name="save"class="btn" value="Подати заявку" />
 
+            }
         }
-
-
-
-    }
 </section>
