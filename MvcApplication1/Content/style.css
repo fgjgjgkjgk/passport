@@ -93,6 +93,11 @@ header a{
 /*Body*/
 
 /*layout*/
+
+.featured a{
+    color:#5c6982;
+}
+
 .site-body{
     min-height: 100%;
     height: auto !important;
@@ -249,7 +254,19 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+ #print a[href*="/Passport"]{
+    
+    color:#5c6982;
+    
+}
 
+ #btn-print{
+       color:#5c6982;
+ }
+
+ #btn-print:hover{
+     color:#fff;
+ }
 /*Cabinet*/
 
  a[href*="UserKabinet/Edit"],a[href*="revision/Create"]{

@@ -1,239 +1,182 @@
 ﻿@model MvcApplication1.Models.gda_passport
 
 @{
-    ViewBag.Title = "Edit";
+    ViewBag.Title = "Змінити заяву";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Edit</h2>
+<section class="featured" id="pass">
 
-@using (Html.BeginForm()) {
-    @Html.AntiForgeryToken()
-    @Html.ValidationSummary(true)
+    <h2>Змінити заяву</h2>
+    <hr />
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
 
-    <fieldset>
-        <legend>gda_passport</legend>
+
 
         @Html.HiddenFor(model => model.Id)
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.surname)
-        </div>
-        <div class="editor-field">
+        <div><label>Прізвище: </label>
             @Html.EditorFor(model => model.surname)
             @Html.ValidationMessageFor(model => model.surname)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.name)
-        </div>
-        <div class="editor-field">
+        <div><label>Ім`я: </label>
             @Html.EditorFor(model => model.name)
             @Html.ValidationMessageFor(model => model.name)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.patronymic)
-        </div>
-        <div class="editor-field">
+       <div><label>По батькові: </label>
             @Html.EditorFor(model => model.patronymic)
             @Html.ValidationMessageFor(model => model.patronymic)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.born)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.born)
+       <div><label>Дата народжння: </label>
+           <input type="date" name="born" value=" " />
             @Html.ValidationMessageFor(model => model.born)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.kingdom)
-        </div>
-        <div class="editor-field">
+        <div><label>Місце народження: </label>
             @Html.EditorFor(model => model.kingdom)
             @Html.ValidationMessageFor(model => model.kingdom)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.gender)
-        </div>
-        <div class="editor-field">
+       <div><label>Стать: </label>
             @Html.EditorFor(model => model.gender)
             @Html.ValidationMessageFor(model => model.gender)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.marital_status)
-        </div>
-        <div class="editor-field">
+        <div>
+        <label>Не одружений/не заміжня</label>
             @Html.EditorFor(model => model.marital_status)
             @Html.ValidationMessageFor(model => model.marital_status)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.family_surname)
-        </div>
-        <div class="editor-field">
+       <div>
+        <label>Прізвище партнера: </label>
             @Html.EditorFor(model => model.family_surname)
             @Html.ValidationMessageFor(model => model.family_surname)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.family_name)
-        </div>
-        <div class="editor-field">
+         <div>
+        <label>Ім’я партнера: </label>
             @Html.EditorFor(model => model.family_name)
             @Html.ValidationMessageFor(model => model.family_name)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.family_patronymic)
-        </div>
-        <div class="editor-field">
+         <div>
+        <label>По-батькові партнера: </label>
             @Html.EditorFor(model => model.family_patronymic)
             @Html.ValidationMessageFor(model => model.family_patronymic)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.family_who_registered)
-        </div>
-        <div class="editor-field">
+         <div>
+        <label>Ким був зареєстрований: </label>
             @Html.EditorFor(model => model.family_who_registered)
             @Html.ValidationMessageFor(model => model.family_who_registered)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.family_when_registered)
-        </div>
-        <div class="editor-field">
+       <div>
+        <label>Коли був зареестрований: </label>
             @Html.EditorFor(model => model.family_when_registered)
             @Html.ValidationMessageFor(model => model.family_when_registered)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.mom_surname)
-        </div>
-        <div class="editor-field">
+       <div>
+        <label>Прізвище матері: </label>
             @Html.EditorFor(model => model.mom_surname)
             @Html.ValidationMessageFor(model => model.mom_surname)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.mom_name)
-        </div>
-        <div class="editor-field">
+        <div>
+        <label>Ім’я матері: </label>
             @Html.EditorFor(model => model.mom_name)
             @Html.ValidationMessageFor(model => model.mom_name)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.mom_patronymic)
-        </div>
-        <div class="editor-field">
+         <div>
+        <label>По батькові матері: </label>
             @Html.EditorFor(model => model.mom_patronymic)
             @Html.ValidationMessageFor(model => model.mom_patronymic)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.father_surname)
-        </div>
-        <div class="editor-field">
+         <div>
+        <label>Прізвище батька: </label>
             @Html.EditorFor(model => model.father_surname)
             @Html.ValidationMessageFor(model => model.father_surname)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.father_name)
-        </div>
-        <div class="editor-field">
+      <div>
+        <label>Ім’я батька: </label>
             @Html.EditorFor(model => model.father_name)
             @Html.ValidationMessageFor(model => model.father_name)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.father_patronymic)
-        </div>
-        <div class="editor-field">
+         <div>
+        <label>По батькові батька: </label>
             @Html.EditorFor(model => model.father_patronymic)
             @Html.ValidationMessageFor(model => model.father_patronymic)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.residence_city)
-        </div>
-        <div class="editor-field">
+          <div>
+        <label>Місто проживання: </label>
             @Html.EditorFor(model => model.residence_city)
             @Html.ValidationMessageFor(model => model.residence_city)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.residence_house)
-        </div>
-        <div class="editor-field">
+       <div>
+        <label>Вулиця проживання: </label>
             @Html.EditorFor(model => model.residence_house)
             @Html.ValidationMessageFor(model => model.residence_house)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.residence_apartment)
-        </div>
-        <div class="editor-field">
+         <div>
+        <label>Будинок проживання: </label>
             @Html.EditorFor(model => model.residence_apartment)
             @Html.ValidationMessageFor(model => model.residence_apartment)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.foreign_citizenship)
-        </div>
-        <div class="editor-field">
+        <div>
+        <label>Не маю іноземного громадянства: </label>
             @Html.EditorFor(model => model.foreign_citizenship)
             @Html.ValidationMessageFor(model => model.foreign_citizenship)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.foreign_citizenship_where)
-        </div>
-        <div class="editor-field">
+        <div>
+        <label>Країна: </label>
             @Html.EditorFor(model => model.foreign_citizenship_where)
             @Html.ValidationMessageFor(model => model.foreign_citizenship_where)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.foreign_citizenship_now)
-        </div>
-        <div class="editor-field">
+        <div>
+        <label>Дата прийняття громадянство України: </label>
             @Html.EditorFor(model => model.foreign_citizenship_now)
             @Html.ValidationMessageFor(model => model.foreign_citizenship_now)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.reason_for_issuing)
-        </div>
-        <div class="editor-field">
+        <div>
+        <label>Прошу видати (замінити) паспорт у зв'язку  з: </label>
             @Html.EditorFor(model => model.reason_for_issuing)
             @Html.ValidationMessageFor(model => model.reason_for_issuing)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.date_of_filling)
-        </div>
-        <div class="editor-field">
+          <div>
+        <label>Дата заповнення: </label>
             @Html.EditorFor(model => model.date_of_filling)
             @Html.ValidationMessageFor(model => model.date_of_filling)
         </div>
 
-        <p>
-            <input type="submit" value="Save" />
-        </p>
-    </fieldset>
-}
+            <input type="submit" class="btn" value="Зберегти" />
+   
+    }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
 
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+</section>
