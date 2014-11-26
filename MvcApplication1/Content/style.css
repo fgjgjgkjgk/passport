@@ -45,6 +45,7 @@ header a{
 
 
 .navbar-nav li a{
+    color:#fff;
     padding:20px;
     height:60px;
     transition:all ease-in-out 0.3s;
@@ -94,7 +95,7 @@ header a{
 
 /*layout*/
 
-.featured a{
+a{
     color:#5c6982;
 }
 
@@ -204,7 +205,7 @@ aside ul li a:hover{
     
 }
 
-aside ul li a:visited,a:link, a:focus{
+aside ul li a:visited,aside ul li a:link,aside ul li a:focus{
     color:#fff;
     text-decoration:none;
 }
@@ -214,6 +215,13 @@ aside ul li a:active{
     color:#5c6982;
     text-decoration:none;
 }
+
+
+a:visited, a:link, a:focus{
+    text-decoration:none;
+}
+
+
 
 label{
     width:140px;
@@ -319,6 +327,10 @@ a[href*="revision/Edit"]:active,a[href*="revision/Details"]:active,a[href*="revi
     overflow-x:scroll; 
 }
 
+
+#options-td a{
+    color:#5c6982;
+}
 
 
 /*footer*/
