@@ -1,198 +1,147 @@
 ﻿@model MvcApplication1.Models.gda_passport
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Деталі заяви";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<section class="featured" id="pass">
 
-<fieldset>
-    <legend>gda_passport</legend>
+    <h2>Деталі заяви</h2>
+    <hr />
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.surname)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Прізвище: </label>
         @Html.DisplayFor(model => model.surname)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.name)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Ім`я: </label>
         @Html.DisplayFor(model => model.name)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.patronymic)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>По батькові: </label>
         @Html.DisplayFor(model => model.patronymic)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.born)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Дата народжння: </label>
         @Html.DisplayFor(model => model.born)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.kingdom)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Місце народження: </label>
         @Html.DisplayFor(model => model.kingdom)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.gender)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Стать: </label>
         @Html.DisplayFor(model => model.gender)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.marital_status)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Не одружений/не заміжня</label>
         @Html.DisplayFor(model => model.marital_status)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.family_surname)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Прізвище партнера: </label>
         @Html.DisplayFor(model => model.family_surname)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.family_name)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Ім’я партнера: </label>
         @Html.DisplayFor(model => model.family_name)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.family_patronymic)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>По-батькові партнера: </label>
         @Html.DisplayFor(model => model.family_patronymic)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.family_who_registered)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Ким був зареєстрований: </label>
         @Html.DisplayFor(model => model.family_who_registered)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.family_when_registered)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Коли був зареестрований: </label>
         @Html.DisplayFor(model => model.family_when_registered)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.mom_surname)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Прізвище матері: </label>
         @Html.DisplayFor(model => model.mom_surname)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.mom_name)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Ім’я матері: </label>
         @Html.DisplayFor(model => model.mom_name)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.mom_patronymic)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>По батькові матері: </label>
         @Html.DisplayFor(model => model.mom_patronymic)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.father_surname)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Прізвище батька: </label>
         @Html.DisplayFor(model => model.father_surname)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.father_name)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Ім’я батька: </label>
         @Html.DisplayFor(model => model.father_name)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.father_patronymic)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>По батькові батька: </label>
         @Html.DisplayFor(model => model.father_patronymic)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.residence_city)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Місто проживання: </label>
         @Html.DisplayFor(model => model.residence_city)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.residence_house)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Вулиця проживання: </label>
         @Html.DisplayFor(model => model.residence_house)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.residence_apartment)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Будинок проживання: </label>
         @Html.DisplayFor(model => model.residence_apartment)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.foreign_citizenship)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Не маю іноземного громадянства: </label>
         @Html.DisplayFor(model => model.foreign_citizenship)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.foreign_citizenship_where)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Країна: </label>
         @Html.DisplayFor(model => model.foreign_citizenship_where)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.foreign_citizenship_now)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Дата прийняття громадянство України: </label>
         @Html.DisplayFor(model => model.foreign_citizenship_now)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.reason_for_issuing)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Прошу видати (замінити) паспорт у зв'язку  з: </label>
         @Html.DisplayFor(model => model.reason_for_issuing)
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.date_of_filling)
-    </div>
-    <div class="display-field">
+    <div>
+        <label>Дата заповнення: </label>
         @Html.DisplayFor(model => model.date_of_filling)
     </div>
-</fieldset>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+
+
+        @Html.ActionLink("Змінити", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Назад", "Index")
+
+</section>
