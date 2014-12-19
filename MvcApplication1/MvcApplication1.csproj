@@ -194,24 +194,29 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\City.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>City.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Models\gda_passport.cs">
-      <DependentUpon>PassportModelAdo.tt</DependentUpon>
+      <DependentUpon>PassportModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\MyModel\GetUserInf.cs" />
-    <Compile Include="Models\PassportModelAdo.Context.cs">
+    <Compile Include="Models\PassportModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PassportModelAdo.Context.tt</DependentUpon>
+      <DependentUpon>PassportModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\PassportModelAdo.cs">
+    <Compile Include="Models\PassportModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PassportModelAdo.tt</DependentUpon>
+      <DependentUpon>PassportModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\PassportModelAdo.Designer.cs">
+    <Compile Include="Models\PassportModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
+      <DependentUpon>PassportModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\UserKabinet.cs">
       <DependentUpon>UserKabinetModel.tt</DependentUpon>
@@ -317,22 +322,27 @@
       <DependentUpon>UserKabinetModel.edmx</DependentUpon>
       <LastGenOutput>UserKabinetModel.cs</LastGenOutput>
     </Content>
-    <EntityDeploy Include="Models\PassportModelAdo.edmx">
+    <Content Include="Models\City.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>City.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <EntityDeploy Include="Models\PassportModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>PassportModelAdo.Designer.cs</LastGenOutput>
+      <LastGenOutput>PassportModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\PassportModelAdo.Context.tt">
+    <Content Include="Models\PassportModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
-      <LastGenOutput>PassportModelAdo.Context.cs</LastGenOutput>
+      <DependentUpon>PassportModel.edmx</DependentUpon>
+      <LastGenOutput>PassportModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\PassportModelAdo.edmx.diagram">
-      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
+    <Content Include="Models\PassportModel.edmx.diagram">
+      <DependentUpon>PassportModel.edmx</DependentUpon>
     </Content>
-    <Content Include="Models\PassportModelAdo.tt">
+    <Content Include="Models\PassportModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PassportModelAdo.edmx</DependentUpon>
-      <LastGenOutput>PassportModelAdo.cs</LastGenOutput>
+      <DependentUpon>PassportModel.edmx</DependentUpon>
+      <LastGenOutput>PassportModel.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -407,6 +417,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\City.dbml.layout">
+      <DependentUpon>City.dbml</DependentUpon>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

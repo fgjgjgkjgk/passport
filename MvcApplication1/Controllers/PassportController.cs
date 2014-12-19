@@ -8,6 +8,8 @@ using WebMatrix.WebData;
 using MvcApplication1.Models.MyModel;
 using MvcApplication1.Validation;
 using System.IO;
+using System.Data.Linq.SqlClient;
+using System.Data.SqlClient;
 
 namespace MvcApplication1.Controllers
 {
@@ -35,9 +37,25 @@ namespace MvcApplication1.Controllers
             ListVdata.Add("");
 
             ViewBag.we = ListVdata;
-            ViewBag.mm = ListVdata;          
+            ViewBag.mm = ListVdata;
             
             return View("extradition");
+        }
+
+        public ActionResult Find(string term)
+        {
+            //term = "Ук";
+            CityDataContext eeee = new CityDataContext();
+            var projection = from city in eeee.city
+                             where SqlMethods.Like(city.name, "'" + term + "%'")
+                             select new
+                             {
+                                 id = city.city_id,
+                                 label = city.name,
+                                 value = city.name
+                             };
+            return Json(projection.ToList(),
+              JsonRequestBehavior.AllowGet);
         }
  
         [HttpPost]
@@ -57,23 +75,7 @@ namespace MvcApplication1.Controllers
 
             ViewBag.UserInf = usinf.Getuser();
 
-
-            int[] arr = {1	,
-2	,
-3	,
-4	,
-5	,
-6	,
-7	,
-8	,
-9	,
-10	
- };
-           
-            foreach(int i in arr){
-                usinf.SQLInsert("area", "name", "'" + i + "'");
-            }
-            /*if (Vdana.VNotempty(ArrayNotEmpty).IndexOf("Поле") != -1)
+            if (Vdana.VNotempty(ArrayNotEmpty).IndexOf("Поле") != -1)
             {
                 ViewBag.we = Vdana.VNotempty(ArrayNotEmpty);
                 ViewBag.mm = ListVdata;
@@ -86,7 +88,7 @@ namespace MvcApplication1.Controllers
                     ViewBag.we = ListVdata;
                 }
                 else {*/
-                    /*ViewBag.we = ListVdata;
+                    ViewBag.we = ListVdata;
                     ViewBag.mm = ListVdata;
 
                     foreach (var file in fileUpload)
@@ -103,7 +105,9 @@ namespace MvcApplication1.Controllers
                         " " + UserId + ", '" + surname + "','" + name + "','" + patronymic + "','" + born + "','" + kingdom + "','" + gender + "','" + marital_status + "','" + family_surname + "','" + family_name + "','" + family_patronymic + "','" + family_who_registered + "','" + family_when_registered + "','" + mom_surname + "','" + mom_name + "','" + mom_patronymic + "','" + father_surname + "','" + father_name + "','" + father_patronymic + "','" + residence_city + "','" + residence_house + "','" + residence_apartment + "','" + foreign_citizenship + "','" + foreign_citizenship_where + "','" + foreign_citizenship_now + "','" + reason_for_issuing + "','" + date_of_filling + "' ");
                 } 
             //}
-            Response.Redirect("/Passport/Desc");*/
+            Response.Redirect("/Passport/Desc");
+
+            
             return View("Desc");
             
         }
@@ -112,7 +116,7 @@ namespace MvcApplication1.Controllers
         public ActionResult Desc()
         {
             var edit = (from u in db.gda_passport
-                        where u.Id == UserId
+                        where u.id_user == UserId
                         select u).First();
             
             return View(edit);

@@ -84,19 +84,19 @@
     <div><label>Будинок: </label><input id="Text1" type="text" name="residence_apartment" /></div>
             
             <hr />
-            <h3>Іноземне громадянство</h3>
+           <!-- <h3>Іноземне громадянство</h3>
             
     <div id="chbox"><label><input type="checkbox" name="foreign_citizenship" />Не маю</label></div>
             
     <div><label>Країна: </label><input id="Text1" type="text" name="foreign_citizenship_where" /></div>
             
-    <div><label>Дата прийняття громадянство України: </label><input id="Text1" type="text" name="foreign_citizenship_now" /></div>
+    <div><label>Дата прийняття громадянство України: </label><input id="Text1" type="text" name="foreign_citizenship_now" /></div>-->
             
     <div><label>Прошу видати (замінити) паспорт у зв'язку  з: </label><input id="Text1" type="text" name="reason_for_issuing" /></div>
             
     <div><label>Дата заповнення: </label><input id="Text1" type="text" name="date_of_filling" /></div>
             
-            <h2>Загрузка фото</h2>      
+            <h2>Завантаження фото</h2>      
              <input type="file" name="fileUpload" /><br />              
 
             <input type="submit" name="save"class="btn" value="Подати заявку" />
@@ -104,3 +104,43 @@
             }
         }
 </section>
+
+<script src="@Url.Content("~/Scripts/jquery-1.8.2.js")"
+        type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery-ui-1.8.24.js")"
+        type="text/javascript"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+<link href="@Url.Content(
+    "~/content/themes/base/jquery-ui.css")"
+      rel="Stylesheet" type="text/css" />
+<script type="text/javascript">
+$(function () {
+    var autocompleteUrl = '@Url.Action("Find")';
+    var bla = $('#city').val();
+    $("#city").autocomplete({
+        source: autocompleteUrl,
+        minLength: 1,
+        select: function (event, ui) {
+            /*alert("Selected " + ui.item.label);*/
+            $: ajax({
+                url: '@Url.Action("Find", "Passport")',
+                data: bla = $('#city').value,
+                success: function (data) {
+                    $('#city').html(data);
+                }
+            })
+        }  
+  });
+});
+</script>
+<h2>Cities</h2>
+<p>
+    Start typing a city to see
+    the autocomplete behavior in action.
+</p>
+<p>
+    <label for="city">City</label>
+    <input type="text" id="city"/>
+</p>
+
+@ViewBag.tert

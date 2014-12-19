@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Model7Container" CdmEntityContainer="Entities7">
+    <EntitySetMapping Name="gda_passport">
+      <EntityTypeMapping TypeName="Model7.gda_passport">
+        <MappingFragment StoreEntitySet="gda_passport">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="patronymic" ColumnName="patronymic" />
+          <ScalarProperty Name="born" ColumnName="born" />
+          <ScalarProperty Name="kingdom" ColumnName="kingdom" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="marital_status" ColumnName="marital_status" />
+          <ScalarProperty Name="family_surname" ColumnName="family_surname" />
+          <ScalarProperty Name="family_name" ColumnName="family_name" />
+          <ScalarProperty Name="family_patronymic" ColumnName="family_patronymic" />
+          <ScalarProperty Name="family_who_registered" ColumnName="family_who_registered" />
+          <ScalarProperty Name="family_when_registered" ColumnName="family_when_registered" />
+          <ScalarProperty Name="mom_surname" ColumnName="mom_surname" />
+          <ScalarProperty Name="mom_name" ColumnName="mom_name" />
+          <ScalarProperty Name="mom_patronymic" ColumnName="mom_patronymic" />
+          <ScalarProperty Name="father_surname" ColumnName="father_surname" />
+          <ScalarProperty Name="father_name" ColumnName="father_name" />
+          <ScalarProperty Name="father_patronymic" ColumnName="father_patronymic" />
+          <ScalarProperty Name="residence_city" ColumnName="residence_city" />
+          <ScalarProperty Name="residence_house" ColumnName="residence_house" />
+          <ScalarProperty Name="residence_apartment" ColumnName="residence_apartment" />
+          <ScalarProperty Name="foreign_citizenship" ColumnName="foreign_citizenship" />
+          <ScalarProperty Name="foreign_citizenship_where" ColumnName="foreign_citizenship_where" />
+          <ScalarProperty Name="foreign_citizenship_now" ColumnName="foreign_citizenship_now" />
+          <ScalarProperty Name="reason_for_issuing" ColumnName="reason_for_issuing" />
+          <ScalarProperty Name="date_of_filling" ColumnName="date_of_filling" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

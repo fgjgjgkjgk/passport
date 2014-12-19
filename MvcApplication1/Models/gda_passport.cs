@@ -19,7 +19,7 @@ namespace MvcApplication1.Models
         public string surname { get; set; }
         public string name { get; set; }
         public string patronymic { get; set; }
-        public System.DateTime born { get; set; }
+        public string born { get; set; }
         public string kingdom { get; set; }
         public string gender { get; set; }
         public string marital_status { get; set; }

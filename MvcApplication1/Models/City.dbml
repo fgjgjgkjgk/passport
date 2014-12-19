@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="aspnet-MvcApplication1-20141021183026" Class="CityDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-MvcApplication1-20141021183026.mdf;Initial Catalog=aspnet-MvcApplication1-20141021183026;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="aspnet_MvcApplication1_20141021183026ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.city" Member="city">
+    <Type Name="city">
+      <Column Name="city_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="country_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="region_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(128) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
