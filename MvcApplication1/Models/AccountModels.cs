@@ -25,6 +25,7 @@ namespace MvcApplication1.Models
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int UserId { get; set; }
         public string UserName { get; set; }
+        public string Email { get; set; }
     }
 
     public class RegisterExternalLoginModel
@@ -73,19 +74,26 @@ namespace MvcApplication1.Models
     public class RegisterModel
     {
         [Required]
-        [Display(Name = "Имя пользователя")]
+        [Display(Name = "Ім'я користувача")]
         public string UserName { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Значение \"{0}\" должно содержать не менее {2} символов.", MinimumLength = 6)]
+        [StringLength(100, ErrorMessage = "Пароль повинен містити не менше 6 символів")]
         [DataType(DataType.Password)]
         [Display(Name = "Пароль")]
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "Подтверждение пароля")]
-        [Compare("Password", ErrorMessage = "Пароль и его подтверждение не совпадают.")]
+        [Display(Name = "Підтвердження пароля")]
+        [Compare("Password", ErrorMessage = "Пароль и его підтердження не співпадають.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [DataType(DataType.EmailAddress)]
+        [RegularExpression(@"^([0-9a-zA-Z]([\+\-_\.][0-9a-zA-Z]+)*)+@(([0-9a-zA-Z][-\w]*[0-9a-zA-Z]*\.)+[a-zA-Z0-9]{2,3})$",
+        ErrorMessage = "Введіть вашу електронну пошту корректно")]
+        [Display(Name = "Електронна пошта")]
+        public string Email { get; set; }
 
     }
 

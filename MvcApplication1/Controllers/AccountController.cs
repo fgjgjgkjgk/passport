@@ -17,6 +17,7 @@ namespace MvcApplication1.Controllers
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
+
         //
         // GET: /Account/Login
 
@@ -76,20 +77,38 @@ namespace MvcApplication1.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Попытка зарегистрировать пользователя
-                try
+                // Insert a new user into the database
+                using (UsersContext db = new UsersContext())
                 {
-                    WebSecurity.CreateUserAndAccount(model.UserName, model.Password);
-                    WebSecurity.Login(model.UserName, model.Password);
-                    Roles.AddUserToRole(model.UserName, "user");
-                    return RedirectToAction("Create", "UserKabinet");
-                }
-                catch (MembershipCreateUserException e)
-                {
-                    ModelState.AddModelError("", ErrorCodeToString(e.StatusCode));
+                    UserProfile email = db.UserProfiles.FirstOrDefault(u => u.Email.ToLower() == model.Email.ToLower());
+                    UserProfile name = db.UserProfiles.FirstOrDefault(u => u.UserName.ToLower() == model.UserName.ToLower());
+                    try
+                    {
+                        // Check if email already exists
+                        if (email == null && name ==null )
+                        {
+                            WebSecurity.CreateUserAndAccount(model.UserName, model.Password, new { Email = model.Email });
+                            WebSecurity.Login(model.UserName, model.Password);
+                            Roles.AddUserToRole(model.UserName, "user");
+                            return RedirectToAction("Index", "Home");
+                        }
+                        else
+                        {
+                           if (name != null)
+                               ModelState.AddModelError("UserName", "Ім'я користувача вже існує. Введіть інше ім'я.");
+                           if(email!=null)
+                                ModelState.AddModelError("Email", "Електронна адреса вже існує. Введіть іншу адресу ");
+                        }
+                    }
+                    catch (MembershipCreateUserException e)
+                    {
+
+                        ModelState.AddModelError("", ErrorCodeToString(e.StatusCode));
+                    }
                 }
             }
 
+           
             // Появление этого сообщения означает наличие ошибки; повторное отображение формы
             return View(model);
         }
@@ -128,6 +147,7 @@ namespace MvcApplication1.Controllers
 
         public ActionResult Manage(ManageMessageId? message)
         {
+           
             ViewBag.StatusMessage =
                 message == ManageMessageId.ChangePasswordSuccess ? "Пароль изменен."
                 : message == ManageMessageId.SetPasswordSuccess ? "Пароль задан."
